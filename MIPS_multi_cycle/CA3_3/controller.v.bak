@@ -1,0 +1,118 @@
+`define   S0      5'b00000
+`define   S1      5'b00001
+`define   S2      5'b00010
+`define   S3      5'b00011
+`define   S4      5'b00100
+`define   S5      5'b00101
+`define   S6      5'b00110
+`define   S7      5'b00111
+`define   S8      5'b01000
+`define   S9      5'b01001
+`define   S10     5'b01010
+`define   S11     5'b01011
+`define   S12     5'b01100
+`define   S13     5'b01101
+`define   S14     5'b01110
+`define   S15     5'b01111
+
+module controller ( opcode, func, zero, 
+                    IorD, IRwrite, R31_sel,jal_sel,
+                    reg_dst, mem_to_reg, alu_src_A, alu_src_B, operation, reg_write, 
+                    pc_src, pc_ld, mem_read, mem_write,clk,rst
+                  );
+                    
+  input [5:0] opcode;
+  input [5:0] func;
+  input zero,clk,rst;
+  output  reg IorD, IRwrite, R31_sel,jal_sel, reg_dst, mem_to_reg, alu_src_A, reg_write,
+              pc_ld, mem_read, mem_write;
+  output [2:0] operation;
+  output reg[1:0] pc_src,alu_src_B;
+    
+  reg [4:0] ps, ns;
+  reg [1:0] alu_Op;
+
+  reg pcwrite, pcwrite_cond; 
+
+  alu_controller ALU_CTRL(alu_Op, func, operation);
+
+  always @(posedge clk)
+  if (rst)
+    ps <= 5'b00000;
+  else
+    ps <= ns;
+
+
+  always @(ps, opcode)
+  begin  
+    case (ps)
+      `S0:  ns = `S1 ;
+      `S1: begin
+             case(opcode)
+               6'b000010 : ns = `S2;
+               6'b000110 : ns = `S3;
+               6'b000011 : ns = `S4; 
+               6'b000000 : ns = `S5;
+               6'b001001 : ns = `S7;
+               6'b001010 : ns = `S9; 
+               6'b000100 : ns = `S11;
+               6'b100011 : ns = `S12;
+               6'b101011 : ns = `S12; 
+             endcase
+           end
+      `S2:  ns=`S0;
+      `S3:  ns=`S0;
+      `S4:  ns=`S0; 
+      `S5:  ns=`S6;
+      `S6:  ns=`S0;
+      `S7:  ns=`S8;
+      `S8:  ns=`S0;
+      `S9:  ns=`S10;   
+      `S10:  ns=`S0;
+      `S11:  ns=`S0;
+      `S12: begin
+          case(opcode)
+          6'b100011 : ns = `S13; //LW
+          6'b101011 : ns = `S15; //SW
+          endcase
+          end
+      `S13:  ns = `S14;
+      `S14:  ns = `S0;
+      `S15:  ns = `S0;
+    endcase
+  end
+
+   always @(ps)
+   begin
+    {pcwrite,pcwrite_cond,IorD, IRwrite, R31_sel, jal_sel, reg_dst, mem_to_reg, alu_src_A, reg_write, mem_read,
+     mem_write, alu_Op, pc_src, alu_src_B} = 18'd0;
+    case (ps)
+      `S0: {mem_read,IRwrite,pcwrite,alu_src_B} = 5'b11101;
+      `S1: {alu_src_B} = 2'b11;
+      `S2: {pcwrite,pc_src} = 3'b101;
+      `S3: {pcwrite,pc_src} = 3'b111;
+      `S4: {pc_src,pcwrite,reg_write,R31_sel,jal_sel} = 6'b011111;
+      `S5: {alu_src_A,alu_Op} = 3'b110;
+      `S6: {reg_dst,reg_write} = 2'b11;
+      `S7: {alu_src_A,alu_src_B} = 3'b110;
+      `S8: {reg_write} = 1'b1;
+      `S9: {alu_Op,alu_src_A,alu_src_B} = 5'b11110;
+      `S10: {reg_write} = 1'b1;
+      `S11: {alu_src_A,alu_Op,pcwrite_cond,pc_src} = 6'b101110;
+      `S12: {alu_src_A,alu_src_B} = 3'b110;
+      `S13: {mem_read,IorD} = 2'b11;
+      `S14: {reg_write,mem_to_reg} = 2'b11;
+      `S15: {mem_write,IorD,done} = 3'b111;
+    endcase
+  end
+
+  always @(pcwrite,pcwrite_cond,zero) begin
+      pc_ld = pcwrite || ( pcwrite_cond && zero );
+  end
+
+endmodule
+
+
+
+
+

@@ -1,0 +1,340 @@
+# Compile of mips.v was successful.
+# Compile of reg_file.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of datapath.v was successful.
+# Compile of alu.v was successful.
+# Compile of alu_controller.v was successful.
+# Compile of controller.v was successful.
+# Compile of datapath.v was successful.
+# Compile of mips.v was successful.
+# Compile of multicycle_mips_tb.v was successful.
+# Compile of mux2to1_5b.v was successful.
+# Compile of mux2to1_32b.v was successful.
+# Compile of mux4to1_32b.v was successful.
+# Compile of reg_32b.v was successful.
+# Compile of reg_file.v was successful.
+# Compile of shl2.v was successful.
+# Compile of sign_ext.v was successful.
+# Compile of memory.v was successful.
+# 14 compiles, 0 failed with no errors.
+# Compile of alu.v was successful.
+# Compile of alu_controller.v was successful.
+# Compile of controller.v was successful.
+# Compile of datapath.v was successful.
+# Compile of mips.v was successful.
+# Compile of multicycle_mips_tb.v was successful.
+# Compile of mux2to1_5b.v was successful.
+# Compile of mux2to1_32b.v was successful.
+# Compile of mux4to1_32b.v was successful.
+# Compile of reg_32b.v was successful.
+# Compile of reg_file.v was successful.
+# Compile of shl2.v was successful.
+# Compile of sign_ext.v was successful.
+# Compile of memory.v was successful.
+# 14 compiles, 0 failed with no errors.
+vsim -gui work.multicycle_mips_tb
+# vsim -gui work.multicycle_mips_tb 
+# Start time: 20:01:49 on Feb 03,2023
+# Loading work.multicycle_mips_tb
+# Loading work.mips
+# Loading work.datapath
+# Loading work.reg_32b
+# Loading work.mux2to1_32b
+# Loading work.mux2to1_5b
+# Loading work.reg_file
+# Loading work.sign_ext
+# Loading work.shl2
+# Loading work.mux4to1_32b
+# Loading work.alu
+# Loading work.controller
+# Loading work.alu_controller
+# Loading work.memory
+add wave -position insertpoint sim:/multicycle_mips_tb/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: SAMAR  Hostname: DESKTOP-8U3B9MN  ProcessID: 8584
+#           Attempting to use alternate WLF file "./wlft4zvd8z".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft4zvd8z
+run -all
+# The content of mem[200] =          0
+# ** Note: $stop    : C:/Me/ProjectsAndCAs/DigitalSystems2/CA3_3/multicycle_mips_tb.v(21)
+#    Time: 12010 ps  Iteration: 0  Instance: /multicycle_mips_tb
+# Break in Module multicycle_mips_tb at C:/Me/ProjectsAndCAs/DigitalSystems2/CA3_3/multicycle_mips_tb.v line 21
+quit -sim
+# End time: 20:02:34 on Feb 03,2023, Elapsed time: 0:00:45
+# Errors: 0, Warnings: 7
+# Compile of alu.v was successful.
+# Compile of alu_controller.v was successful.
+# Compile of controller.v was successful.
+# Compile of datapath.v was successful.
+# Compile of mips.v was successful.
+# Compile of multicycle_mips_tb.v failed with 1 errors.
+# Compile of mux2to1_5b.v was successful.
+# Compile of mux2to1_32b.v was successful.
+# Compile of mux4to1_32b.v was successful.
+# Compile of reg_32b.v was successful.
+# Compile of reg_file.v was successful.
+# Compile of shl2.v was successful.
+# Compile of sign_ext.v was successful.
+# Compile of memory.v was successful.
+# 14 compiles, 1 failed with 1 error.
+vsim -gui work.multicycle_mips_tb
+# vsim -gui work.multicycle_mips_tb 
+# Start time: 20:03:05 on Feb 03,2023
+# Loading work.multicycle_mips_tb
+# Loading work.mips
+# Loading work.datapath
+# Loading work.reg_32b
+# Loading work.mux2to1_32b
+# Loading work.mux2to1_5b
+# Loading work.reg_file
+# Loading work.sign_ext
+# Loading work.shl2
+# Loading work.mux4to1_32b
+# Loading work.alu
+# Loading work.controller
+# Loading work.alu_controller
+# Loading work.memory
+# Compile of alu.v was successful.
+# Compile of alu_controller.v was successful.
+# Compile of controller.v was successful.
+# Compile of datapath.v was successful.
+# Compile of mips.v was successful.
+# Compile of multicycle_mips_tb.v failed with 1 errors.
+# Compile of mux2to1_5b.v was successful.
+# Compile of mux2to1_32b.v was successful.
+# Compile of mux4to1_32b.v was successful.
+# Compile of reg_32b.v was successful.
+# Compile of reg_file.v was successful.
+# Compile of shl2.v was successful.
+# Compile of sign_ext.v was successful.
+# Compile of memory.v was successful.
+# 14 compiles, 1 failed with 1 error.
+quit -sim
+# End time: 20:04:09 on Feb 03,2023, Elapsed time: 0:01:04
+# Errors: 0, Warnings: 3
+# Compile of alu.v was successful.
+# Compile of alu_controller.v was successful.
+# Compile of controller.v was successful.
+# Compile of datapath.v was successful.
+# Compile of mips.v was successful.
+# Compile of multicycle_mips_tb.v failed with 1 errors.
+# Compile of mux2to1_5b.v was successful.
+# Compile of mux2to1_32b.v was successful.
+# Compile of mux4to1_32b.v was successful.
+# Compile of reg_32b.v was successful.
+# Compile of reg_file.v was successful.
+# Compile of shl2.v was successful.
+# Compile of sign_ext.v was successful.
+# Compile of memory.v was successful.
+# 14 compiles, 1 failed with 1 error.
+# Compile of alu.v was successful.
+# Compile of alu_controller.v was successful.
+# Compile of controller.v was successful.
+# Compile of datapath.v was successful.
+# Compile of mips.v was successful.
+# Compile of multicycle_mips_tb.v failed with 1 errors.
+# Compile of mux2to1_5b.v was successful.
+# Compile of mux2to1_32b.v was successful.
+# Compile of mux4to1_32b.v was successful.
+# Compile of reg_32b.v was successful.
+# Compile of reg_file.v was successful.
+# Compile of shl2.v was successful.
+# Compile of sign_ext.v was successful.
+# Compile of memory.v was successful.
+# 14 compiles, 1 failed with 1 error.
+# Compile of alu.v was successful.
+# Compile of alu_controller.v was successful.
+# Compile of controller.v was successful.
+# Compile of datapath.v was successful.
+# Compile of mips.v was successful.
+# Compile of multicycle_mips_tb.v was successful.
+# Compile of mux2to1_5b.v was successful.
+# Compile of mux2to1_32b.v was successful.
+# Compile of mux4to1_32b.v was successful.
+# Compile of reg_32b.v was successful.
+# Compile of reg_file.v was successful.
+# Compile of shl2.v was successful.
+# Compile of sign_ext.v was successful.
+# Compile of memory.v was successful.
+# 14 compiles, 0 failed with no errors.
+# Compile of alu.v was successful.
+# Compile of alu_controller.v was successful.
+# Compile of controller.v was successful.
+# Compile of datapath.v was successful.
+# Compile of mips.v was successful.
+# Compile of multicycle_mips_tb.v was successful.
+# Compile of mux2to1_5b.v was successful.
+# Compile of mux2to1_32b.v was successful.
+# Compile of mux4to1_32b.v was successful.
+# Compile of reg_32b.v was successful.
+# Compile of reg_file.v was successful.
+# Compile of shl2.v was successful.
+# Compile of sign_ext.v was successful.
+# Compile of memory.v was successful.
+# 14 compiles, 0 failed with no errors.
+vsim -gui work.multicycle_mips_tb
+# vsim -gui work.multicycle_mips_tb 
+# Start time: 20:06:03 on Feb 03,2023
+# Loading work.multicycle_mips_tb
+# Loading work.mips
+# Loading work.datapath
+# Loading work.reg_32b
+# Loading work.mux2to1_32b
+# Loading work.mux2to1_5b
+# Loading work.reg_file
+# Loading work.sign_ext
+# Loading work.shl2
+# Loading work.mux4to1_32b
+# Loading work.alu
+# Loading work.controller
+# Loading work.alu_controller
+# Loading work.memory
+add wave -position insertpoint sim:/multicycle_mips_tb/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: SAMAR  Hostname: DESKTOP-8U3B9MN  ProcessID: 8584
+#           Attempting to use alternate WLF file "./wlftg2k5d8".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftg2k5d8
+run -all
+# The content of mem[200] =          0
+# ** Note: $stop    : C:/Me/ProjectsAndCAs/DigitalSystems2/CA3_3/multicycle_mips_tb.v(21)
+#    Time: 12010 ps  Iteration: 0  Instance: /multicycle_mips_tb
+# Break in Module multicycle_mips_tb at C:/Me/ProjectsAndCAs/DigitalSystems2/CA3_3/multicycle_mips_tb.v line 21
+quit -sim
+# End time: 20:10:43 on Feb 03,2023, Elapsed time: 0:04:40
+# Errors: 0, Warnings: 7
+# Compile of alu.v was successful.
+# Compile of alu_controller.v was successful.
+# Compile of controller.v was successful.
+# Compile of datapath.v was successful.
+# Compile of mips.v was successful.
+# Compile of multicycle_mips_tb.v was successful.
+# Compile of mux2to1_5b.v was successful.
+# Compile of mux2to1_32b.v was successful.
+# Compile of mux4to1_32b.v was successful.
+# Compile of reg_32b.v was successful.
+# Compile of reg_file.v was successful.
+# Compile of shl2.v was successful.
+# Compile of sign_ext.v was successful.
+# Compile of memory.v was successful.
+# 14 compiles, 0 failed with no errors.
+# Compile of alu.v was successful.
+# Compile of alu_controller.v was successful.
+# Compile of controller.v was successful.
+# Compile of datapath.v was successful.
+# Compile of mips.v was successful.
+# Compile of multicycle_mips_tb.v was successful.
+# Compile of mux2to1_5b.v was successful.
+# Compile of mux2to1_32b.v was successful.
+# Compile of mux4to1_32b.v was successful.
+# Compile of reg_32b.v was successful.
+# Compile of reg_file.v was successful.
+# Compile of shl2.v was successful.
+# Compile of sign_ext.v was successful.
+# Compile of memory.v was successful.
+# 14 compiles, 0 failed with no errors.
+vsim -gui work.multicycle_mips_tb
+# vsim -gui work.multicycle_mips_tb 
+# Start time: 20:17:06 on Feb 03,2023
+# Loading work.multicycle_mips_tb
+# Loading work.mips
+# Loading work.datapath
+# Loading work.reg_32b
+# Loading work.mux2to1_32b
+# Loading work.mux2to1_5b
+# Loading work.reg_file
+# Loading work.sign_ext
+# Loading work.shl2
+# Loading work.mux4to1_32b
+# Loading work.alu
+# Loading work.controller
+# Loading work.alu_controller
+# Loading work.memory
+add wave -position insertpoint sim:/multicycle_mips_tb/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: SAMAR  Hostname: DESKTOP-8U3B9MN  ProcessID: 8584
+#           Attempting to use alternate WLF file "./wlftrzejkg".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftrzejkg
+# Compile of alu.v was successful.
+# Compile of alu_controller.v was successful.
+# Compile of controller.v was successful.
+# Compile of datapath.v was successful.
+# Compile of mips.v was successful.
+# Compile of multicycle_mips_tb.v was successful.
+# Compile of mux2to1_5b.v was successful.
+# Compile of mux2to1_32b.v was successful.
+# Compile of mux4to1_32b.v was successful.
+# Compile of reg_32b.v was successful.
+# Compile of reg_file.v was successful.
+# Compile of shl2.v was successful.
+# Compile of sign_ext.v was successful.
+# Compile of memory.v was successful.
+# 14 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.multicycle_mips_tb
+# Loading work.mips
+# Loading work.datapath
+# Loading work.reg_32b
+# Loading work.mux2to1_32b
+# Loading work.mux2to1_5b
+# Loading work.reg_file
+# Loading work.sign_ext
+# Loading work.shl2
+# Loading work.mux4to1_32b
+# Loading work.alu
+# Loading work.controller
+# Loading work.alu_controller
+# Loading work.memory
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# The content of mem[200] =          0
+# ** Note: $stop    : C:/Me/ProjectsAndCAs/DigitalSystems2/CA3_3/multicycle_mips_tb.v(21)
+#    Time: 7210 ps  Iteration: 0  Instance: /multicycle_mips_tb
+# Break in Module multicycle_mips_tb at C:/Me/ProjectsAndCAs/DigitalSystems2/CA3_3/multicycle_mips_tb.v line 21
+# Compile of alu.v was successful.
+# Compile of alu_controller.v was successful.
+# Compile of controller.v was successful.
+# Compile of datapath.v was successful.
+# Compile of mips.v was successful.
+# Compile of multicycle_mips_tb.v was successful.
+# Compile of mux2to1_5b.v was successful.
+# Compile of mux2to1_32b.v was successful.
+# Compile of mux4to1_32b.v was successful.
+# Compile of reg_32b.v was successful.
+# Compile of reg_file.v was successful.
+# Compile of shl2.v was successful.
+# Compile of sign_ext.v was successful.
+# Compile of memory.v was successful.
+# 14 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.multicycle_mips_tb
+# Loading work.mips
+# Loading work.datapath
+# Loading work.reg_32b
+# Loading work.mux2to1_32b
+# Loading work.mux2to1_5b
+# Loading work.reg_file
+# Loading work.sign_ext
+# Loading work.shl2
+# Loading work.mux4to1_32b
+# Loading work.alu
+# Loading work.controller
+# Loading work.alu_controller
+# Loading work.memory
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# The content of mem[200] =          0
+# ** Note: $stop    : C:/Me/ProjectsAndCAs/DigitalSystems2/CA3_3/multicycle_mips_tb.v(20)
+#    Time: 7210 ps  Iteration: 0  Instance: /multicycle_mips_tb
+# Break in Module multicycle_mips_tb at C:/Me/ProjectsAndCAs/DigitalSystems2/CA3_3/multicycle_mips_tb.v line 20
+quit -sim
+# End time: 20:27:37 on Feb 03,2023, Elapsed time: 0:10:31
+# Errors: 0, Warnings: 1
