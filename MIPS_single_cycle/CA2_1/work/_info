@@ -1,0 +1,356 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Me/ProjectsAndCAs/DigitalSystems2/CA1_1
+vadder_32b
+Z0 !s110 1675447936
+!i10b 1
+!s100 CdTlEW`E=^kLiQ^OM;og<0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IObaB^0BJ6mWX6<S;BFchR3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1
+w1606394065
+8C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/adder_32b.v
+FC:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/adder_32b.v
+!i122 752
+L0 1 9
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1675447936.000000
+!s107 C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/adder_32b.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/adder_32b.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+valu
+R0
+!i10b 1
+!s100 lR[U56:SEzd3j43FGZGSN2
+R1
+IDb<eiJJX5_z=:P<=JF^432
+R2
+R3
+w1673019550
+8C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/alu.v
+FC:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/alu.v
+!i122 753
+Z8 L0 1 15
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/alu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/alu.v|
+!i113 1
+R6
+R7
+valu_controller
+Z9 !s110 1675447937
+!i10b 1
+!s100 ;GIgB7[F9k1jXI0Fh3<1g2
+R1
+IR;XkNT^HC3K>dXj6i4cKX0
+R2
+R3
+w1672737778
+8C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/alu_controller.v
+FC:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/alu_controller.v
+!i122 754
+L0 1 30
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/alu_controller.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/alu_controller.v|
+!i113 1
+R6
+R7
+vcontroller
+R9
+!i10b 1
+!s100 BgiLFkJNLTPHWdNGd58P:0
+R1
+I:NR1YJNI>RDi?Bek:lhWF2
+R2
+R3
+w1672737926
+8C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/controller.v
+FC:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/controller.v
+!i122 755
+L0 1 49
+R4
+r1
+!s85 0
+31
+Z10 !s108 1675447937.000000
+!s107 C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/controller.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/controller.v|
+!i113 1
+R6
+R7
+vdata_mem
+R9
+!i10b 1
+!s100 P2SiMLK_:mo=g;M2[;bS60
+R1
+IcAQFj<oO;8WQOngNzb]A41
+R2
+R3
+w1675447386
+8C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/data_mem.v
+FC:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/data_mem.v
+!i122 756
+L0 1 51
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/data_mem.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/data_mem.v|
+!i113 1
+R6
+R7
+vdatapath
+R9
+!i10b 1
+!s100 CE[OP;2jPld`9@GN1aZ6o3
+R1
+I<k1c5Xk5MC5o]GJ^@gLCP0
+R2
+R3
+w1675447802
+8C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/datapath.v
+FC:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/datapath.v
+!i122 757
+L0 1 68
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/datapath.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/datapath.v|
+!i113 1
+R6
+R7
+vinst_mem
+R9
+!i10b 1
+!s100 YaG^kIf0`M]jkl5XU36F62
+R1
+I]gbinB<L^0ET0R0IDWBD73
+R2
+R3
+w1675447494
+8C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/inst_mem.v
+FC:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/inst_mem.v
+!i122 758
+L0 1 54
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/inst_mem.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/inst_mem.v|
+!i113 1
+R6
+R7
+vmips_single_cycle
+Z11 !s110 1675447938
+!i10b 1
+!s100 FhKm:3lCV_FWl:ODZ4TEm1
+R1
+ITc>mO98AdJDQSf5Fkg<RT1
+R2
+R3
+w1675447933
+8C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/mips_single_cycle.v
+FC:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/mips_single_cycle.v
+!i122 759
+L0 11 21
+R4
+r1
+!s85 0
+31
+Z12 !s108 1675447938.000000
+!s107 C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/mips_single_cycle.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/mips_single_cycle.v|
+!i113 1
+R6
+R7
+vmips_tb
+R11
+!i10b 1
+!s100 >i6SQJfegTdKnzlkN=13^1
+R1
+IGY94<F83M2_JXNg;4bXFj1
+R2
+R3
+w1675447841
+8C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/mips_tb.v
+FC:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/mips_tb.v
+!i122 760
+L0 1 28
+R4
+r1
+!s85 0
+31
+R12
+!s107 C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/mips_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/mips_tb.v|
+!i113 1
+R6
+R7
+vmux2to1_32b
+R11
+!i10b 1
+!s100 AE9e?1BV5Sz27kIdaZoVg0
+R1
+IMK;o@P;JJ_65DFEQKfg:i2
+R2
+R3
+w1606375253
+8C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/mux2to1_32b.v
+FC:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/mux2to1_32b.v
+!i122 762
+Z13 L0 1 8
+R4
+r1
+!s85 0
+31
+R12
+!s107 C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/mux2to1_32b.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/mux2to1_32b.v|
+!i113 1
+R6
+R7
+vmux2to1_5b
+R11
+!i10b 1
+!s100 SKDUW1lgVa5:NWccSd_8;0
+R1
+IiO7jQk8aoh5RXAVcg4:o01
+R2
+R3
+w1606375234
+8C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/mux2to1_5b.v
+FC:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/mux2to1_5b.v
+!i122 761
+R13
+R4
+r1
+!s85 0
+31
+R12
+!s107 C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/mux2to1_5b.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/mux2to1_5b.v|
+!i113 1
+R6
+R7
+vreg_32b
+Z14 !s110 1675447939
+!i10b 1
+!s100 OUc416Wd[[0ZU_`^Ih>>42
+R1
+IRY]d7B[zfL6N046[KAOWm3
+R2
+R3
+w1606374645
+8C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/reg_32b.v
+FC:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/reg_32b.v
+!i122 763
+R8
+R4
+r1
+!s85 0
+31
+R12
+!s107 C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/reg_32b.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/reg_32b.v|
+!i113 1
+R6
+R7
+vreg_file
+R14
+!i10b 1
+!s100 O=Jn_@zTMfzg<D>4KUllm1
+R1
+IbVM1`>@C@S``UGXU2E<aS3
+R2
+R3
+w1675447759
+8C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/reg_file.v
+FC:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/reg_file.v
+!i122 764
+L0 1 21
+R4
+r1
+!s85 0
+31
+Z15 !s108 1675447939.000000
+!s107 C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/reg_file.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/reg_file.v|
+!i113 1
+R6
+R7
+vshl2
+R14
+!i10b 1
+!s100 4EAXZV:3QGkjVF2g0U<@m2
+R1
+I2dFncE>C`ZR8ZgFWfYo4R3
+R2
+R3
+w1606375451
+8C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/shl2.v
+FC:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/shl2.v
+!i122 765
+Z16 L0 1 7
+R4
+r1
+!s85 0
+31
+R15
+!s107 C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/shl2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/shl2.v|
+!i113 1
+R6
+R7
+vsign_ext
+R14
+!i10b 1
+!s100 Xl:JU@EYA]hcK5RRYMQB73
+R1
+ITFdlX=XI3zV<E:C^M8GoV1
+R2
+R3
+w1606394695
+8C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/sign_ext.v
+FC:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/sign_ext.v
+!i122 766
+R16
+R4
+r1
+!s85 0
+31
+R15
+!s107 C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/sign_ext.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/sign_ext.v|
+!i113 1
+R6
+R7

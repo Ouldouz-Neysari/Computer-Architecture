@@ -1,0 +1,106 @@
+C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/data_mem.v {1 {vlog -work work -stats=none C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/data_mem.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module data_mem
+
+Top level modules:
+	data_mem
+
+} {} {}} C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/sign_ext.v {1 {vlog -work work -stats=none C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/sign_ext.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module sign_ext
+
+Top level modules:
+	sign_ext
+
+} {} {}} C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/inst_mem.v {1 {vlog -work work -stats=none C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/inst_mem.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module inst_mem
+
+Top level modules:
+	inst_mem
+
+} {} {}} C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/mips_tb.v {1 {vlog -work work -stats=none C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/mips_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mips_tb
+
+Top level modules:
+	mips_tb
+
+} {} {}} C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/mux2to1_5b.v {1 {vlog -work work -stats=none C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/mux2to1_5b.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux2to1_5b
+
+Top level modules:
+	mux2to1_5b
+
+} {} {}} C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/mux2to1_32b.v {1 {vlog -work work -stats=none C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/mux2to1_32b.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux2to1_32b
+
+Top level modules:
+	mux2to1_32b
+
+} {} {}} C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/mips_single_cycle.v {1 {vlog -work work -stats=none C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/mips_single_cycle.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mips_single_cycle
+
+Top level modules:
+	mips_single_cycle
+
+} {} {}} C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/shl2.v {1 {vlog -work work -stats=none C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/shl2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module shl2
+
+Top level modules:
+	shl2
+
+} {} {}} C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/alu.v {1 {vlog -work work -stats=none C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/alu.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/controller.v {1 {vlog -work work -stats=none C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/controller.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module controller
+
+Top level modules:
+	controller
+
+} {} {}} C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/reg_32b.v {1 {vlog -work work -stats=none C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/reg_32b.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module reg_32b
+
+Top level modules:
+	reg_32b
+
+} {} {}} C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/reg_file.v {1 {vlog -work work -stats=none C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/reg_file.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module reg_file
+
+Top level modules:
+	reg_file
+
+} {} {}} C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/alu_controller.v {1 {vlog -work work -stats=none C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/alu_controller.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module alu_controller
+
+Top level modules:
+	alu_controller
+
+} {} {}} C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/adder_32b.v {1 {vlog -work work -stats=none C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/adder_32b.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module adder_32b
+
+Top level modules:
+	adder_32b
+
+} {} {}} C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/datapath.v {1 {vlog -work work -stats=none C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/datapath.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module datapath
+
+Top level modules:
+	datapath
+
+} {} {}}

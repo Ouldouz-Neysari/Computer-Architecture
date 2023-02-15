@@ -1,0 +1,49 @@
+module controller ( opcode, func, zero, reg_dst, mem_to_reg, reg_write, 
+                    alu_src, mem_read, mem_write, pc_src, operation,
+	            j_cnt, jr_cnt, jal_cnt, R31
+                  );
+                    
+    input [5:0] opcode;
+    input [5:0] func;
+    input zero;
+    output  reg_dst, mem_to_reg, reg_write, alu_src, 
+            mem_read, mem_write, pc_src;
+    reg     reg_dst, mem_to_reg, reg_write, 
+            alu_src, mem_read, mem_write; 
+    output [2:0] operation;
+    output j_cnt, jr_cnt, jal_cnt, R31;
+    reg j_cnt, jr_cnt, jal_cnt, R31;
+            
+    reg [1:0] alu_op;     
+    reg branch;   
+    
+    alu_controller ALU_CTRL(alu_op, func, operation);
+    
+    always @(opcode)
+    begin
+      {reg_dst, alu_src, mem_to_reg, reg_write, mem_read, mem_write, branch, alu_op, j_cnt, jr_cnt, jal_cnt, R31} = 12'd0;
+      case (opcode)
+        // RType instructions
+        6'b000000 : {reg_dst, reg_write, alu_op} = 4'b1110;   
+        // Load Word (lw) instruction           
+        6'b100011 : {alu_src, mem_to_reg, reg_write, mem_read} = 4'b1111; 
+        // Store Word (sw) instruction
+        6'b101011 : {alu_src, mem_write} = 2'b11;                                 
+        // Branch on equal (beq) instruction
+        6'b000100 : {branch, alu_op} = 3'b101; 
+        // Add immediate (addi) instruction
+        6'b001001: {reg_write, alu_src} = 2'b11; 
+        // Set Less than Integer (slti) instruction
+        6'b001010: {reg_write, alu_src, alu_op} = 4'b1111; 
+        // Jump (j) instruction
+        6'b000010: {j_cnt} = 1'b1;
+        // Jump Register (jr) instruction
+        6'b000011: {jr_cnt} = 1'b1;
+        // Jump and Link (jal) instruction
+        6'b000110: {R31, reg_write, jal_cnt} = 3'b111;
+      endcase
+    end
+    
+    assign pc_src = branch & zero;
+  
+endmodule

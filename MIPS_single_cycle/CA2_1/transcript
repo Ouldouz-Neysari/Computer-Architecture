@@ -1,0 +1,153 @@
+# Compile of adder_32b.v was successful.
+# Compile of alu.v was successful.
+# Compile of alu_controller.v was successful.
+# Compile of controller.v was successful.
+# Compile of data_mem.v was successful.
+# Compile of datapath.v was successful.
+# Compile of inst_mem.v was successful.
+# Compile of mips_single_cycle.v was successful.
+# Compile of mips_tb.v was successful.
+# Compile of mux2to1_5b.v was successful.
+# Compile of mux2to1_32b.v was successful.
+# Compile of reg_32b.v was successful.
+# Compile of reg_file.v was successful.
+# Compile of shl2.v was successful.
+# Compile of sign_ext.v was successful.
+# 15 compiles, 0 failed with no errors.
+vsim -gui work.mips_tb
+# vsim -gui work.mips_tb 
+# Start time: 21:35:27 on Feb 03,2023
+# Loading work.mips_tb
+# Loading work.mips_single_cycle
+# Loading work.datapath
+# Loading work.reg_32b
+# Loading work.adder_32b
+# Loading work.mux2to1_5b
+# Loading work.reg_file
+# Loading work.sign_ext
+# Loading work.mux2to1_32b
+# Loading work.alu
+# Loading work.shl2
+# Loading work.controller
+# Loading work.alu_controller
+# Loading work.inst_mem
+# Loading work.data_mem
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'RF'.  Expected 17, found 16.
+#    Time: 0 ps  Iteration: 0  Instance: /mips_tb/CPU/DP/RF File: C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/datapath.v Line: 42
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'wr_reg'. The port definition is at: C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/reg_file.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /mips_tb/CPU/DP/RF File: C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/datapath.v Line: 42
+# ** Warning: (vsim-3722) C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/datapath.v(42): [TFMPC] - Missing connection for port 'rr8'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'i0'. The port definition is at: C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/mux2to1_32b.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /mips_tb/CPU/DP/MUX_8 File: C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/datapath.v Line: 64
+add wave -position insertpoint sim:/mips_tb/*
+run -all
+# The content of mem[200] =          x
+# ** Note: $stop    : C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/mips_tb.v(21)
+#    Time: 1896 ps  Iteration: 0  Instance: /mips_tb
+# Break in Module mips_tb at C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/mips_tb.v line 21
+quit -sim
+# End time: 21:38:31 on Feb 03,2023, Elapsed time: 0:03:04
+# Errors: 0, Warnings: 9
+# Compile of adder_32b.v was successful.
+# Compile of alu.v was successful.
+# Compile of alu_controller.v was successful.
+# Compile of controller.v was successful.
+# Compile of data_mem.v was successful.
+# Compile of datapath.v was successful.
+# Compile of inst_mem.v was successful.
+# Compile of mips_single_cycle.v was successful.
+# Compile of mips_tb.v was successful.
+# Compile of mux2to1_5b.v was successful.
+# Compile of mux2to1_32b.v was successful.
+# Compile of reg_32b.v was successful.
+# Compile of reg_file.v was successful.
+# Compile of shl2.v was successful.
+# Compile of sign_ext.v was successful.
+# 15 compiles, 0 failed with no errors.
+# Compile of adder_32b.v was successful.
+# Compile of alu.v was successful.
+# Compile of alu_controller.v was successful.
+# Compile of controller.v was successful.
+# Compile of data_mem.v was successful.
+# Compile of datapath.v was successful.
+# Compile of inst_mem.v was successful.
+# Compile of mips_single_cycle.v was successful.
+# Compile of mips_tb.v was successful.
+# Compile of mux2to1_5b.v was successful.
+# Compile of mux2to1_32b.v was successful.
+# Compile of reg_32b.v was successful.
+# Compile of reg_file.v was successful.
+# Compile of shl2.v was successful.
+# Compile of sign_ext.v was successful.
+# 15 compiles, 0 failed with no errors.
+vsim -gui work.mips_tb
+# vsim -gui work.mips_tb 
+# Start time: 21:41:50 on Feb 03,2023
+# Loading work.mips_tb
+# Loading work.mips_single_cycle
+# Loading work.datapath
+# Loading work.reg_32b
+# Loading work.adder_32b
+# Loading work.mux2to1_5b
+# Loading work.reg_file
+# Loading work.sign_ext
+# Loading work.mux2to1_32b
+# Loading work.alu
+# Loading work.shl2
+# Loading work.controller
+# Loading work.alu_controller
+# Loading work.inst_mem
+# Loading work.data_mem
+# ** Fatal: (vsim-3365) Too many port connections. Expected 18, found 25.
+#    Time: 0 ps  Iteration: 0  Instance: /mips_tb/CPU/DP File: C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/mips_single_cycle.v Line: 23
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 21:41:51 on Feb 03,2023, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 3
+# Compile of adder_32b.v was successful.
+# Compile of alu.v was successful.
+# Compile of alu_controller.v was successful.
+# Compile of controller.v was successful.
+# Compile of data_mem.v was successful.
+# Compile of datapath.v was successful.
+# Compile of inst_mem.v was successful.
+# Compile of mips_single_cycle.v was successful.
+# Compile of mips_tb.v was successful.
+# Compile of mux2to1_5b.v was successful.
+# Compile of mux2to1_32b.v was successful.
+# Compile of reg_32b.v was successful.
+# Compile of reg_file.v was successful.
+# Compile of shl2.v was successful.
+# Compile of sign_ext.v was successful.
+# 15 compiles, 0 failed with no errors.
+vsim -gui work.mips_tb
+# vsim -gui work.mips_tb 
+# Start time: 21:42:31 on Feb 03,2023
+# Loading work.mips_tb
+# Loading work.mips_single_cycle
+# Loading work.datapath
+# Loading work.reg_32b
+# Loading work.adder_32b
+# Loading work.mux2to1_5b
+# Loading work.reg_file
+# Loading work.sign_ext
+# Loading work.mux2to1_32b
+# Loading work.alu
+# Loading work.shl2
+# Loading work.controller
+# Loading work.alu_controller
+# Loading work.inst_mem
+# Loading work.data_mem
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'wr_reg'. The port definition is at: C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/reg_file.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /mips_tb/CPU/DP/RF File: C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/datapath.v Line: 40
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'i0'. The port definition is at: C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/mux2to1_32b.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /mips_tb/CPU/DP/MUX_8 File: C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/datapath.v Line: 62
+add wave -position insertpoint sim:/mips_tb/*
+run -all
+# The content of mem[200] =          x
+# ** Note: $stop    : C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/mips_tb.v(20)
+#    Time: 1896 ps  Iteration: 0  Instance: /mips_tb
+# Break in Module mips_tb at C:/Me/ProjectsAndCAs/DigitalSystems2/CA2_1/mips_tb.v line 20
+# Quit canceled
+# End time: 22:17:16 on Feb 03,2023, Elapsed time: 0:34:45
+# Errors: 0, Warnings: 5
